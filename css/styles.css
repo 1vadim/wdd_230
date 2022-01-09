@@ -1,5 +1,5 @@
 #content {
-  max-width: 960px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
@@ -10,6 +10,10 @@ header {
   align-items: center;
   background-color: rgba(50, 50, 250, 1);
   color: white;
+  text-align: center;
+  border-radius: 1em;
+  text-shadow: 2px 2px 5px lightgrey;
+  box-shadow: 10px 10px 15px grey, -10px 0px 15px grey, 0px -10px 15px grey;
 }
 
 body {
@@ -18,17 +22,15 @@ body {
 
 img {
   max-width: 100%;
-  border: none;
+  margin: 1em;
 }
 
-h2,
-footer {
+h2 {
   text-align: center;
   margin: 1.25rem auto;
-  color: white;
-}
-h2 {
+  padding: 1em;
   color: black;
+  text-shadow: 2px 2px 5px lightblue;
 }
 
 span {
@@ -37,5 +39,17 @@ span {
 
 footer {
   background-color: rgba(50, 50, 250, 1);
+  text-align: center;
+  margin: 1.25rem auto;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 10px 10px 15px grey, -10px 0px 15px grey, 0px -10px 15px grey;
+}
+
+.copy {
   color: white;
+}
+
+.last {
+  color: yellow;
 }
