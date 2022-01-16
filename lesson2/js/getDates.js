@@ -1,0 +1,1 @@
+document.querySelector('#LastMod').innerHTML = `Last updated: ${document.lastModified}`;

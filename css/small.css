@@ -4,16 +4,14 @@
 }
 
 header {
-  font-size: 1.5em;
-  display: grid;
-  grid-template-columns: 150px auto;
+  font-size: 1em;
+  font-family: "Luxurious Roman", cursive;
   align-items: center;
   background-color: rgba(50, 50, 250, 1);
   color: white;
   text-align: center;
-  border-radius: 1em;
   text-shadow: 2px 2px 5px lightgrey;
-  box-shadow: 10px 10px 15px grey, -10px 0px 15px grey, 0px -10px 15px grey;
+  padding: 1em;
 }
 
 body {
@@ -22,10 +20,12 @@ body {
 
 img {
   max-width: 100%;
+  max-height: 300px;
   margin: 1em;
 }
 
 h2 {
+  font-size: 1.5em;
   text-align: center;
   margin: 1.25rem auto;
   padding: 1em;

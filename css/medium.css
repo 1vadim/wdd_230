@@ -1,0 +1,25 @@
+@media only screen and (min-width: 32.5em) {
+  header {
+    font-size: 2em;
+    font-family: "Luxurious Roman", cursive;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background-color: rgba(50, 50, 250, 1);
+    color: white;
+    text-align: center;
+    border-radius: 1em;
+    text-shadow: 2px 2px 5px lightgrey;
+    box-shadow: 10px 10px 15px grey, -10px 0px 15px grey, 0px -10px 15px grey;
+  }
+
+  h2 {
+    font-size: 2em;
+    color: red;
+    text-align: left;
+  }
+
+  footer {
+    background-color: rgba(150, 50, 250, 1);
+  }
+}

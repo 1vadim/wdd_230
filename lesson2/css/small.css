@@ -1,0 +1,46 @@
+body {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 1em;
+  font-family: "Luxurious Roman", cursive;
+  background-color: rgba(50, 50, 250, 1);
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  background-color: rgba(211, 211, 211, 0.877);
+  padding: 0.5em;
+  margin: 0 10px;
+}
+
+section h2 {
+  background-color: rgba(50, 50, 250, 1);
+  color: white;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  margin: 1em 10px 0;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: rgba(50, 50, 250, 1);
+  text-align: center;
+  margin: 1.25rem auto;
+  padding: 1em;
+  color: white;
+}
