@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="W04 Assignment: Chamber Home Page Build"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alegreya&family=Luxurious+Roman&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>Kyiv Chamber of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <section class="section1">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Kyiv Chamber logo" />
+        </div>
+        <div class="name">
+          <h1>Kyiv</h1>
+          <h4>Chamber of Commerce</h4>
+        </div>
+        <div class="social1">
+          <a href="https://www.facebook.com/"
+            ><img class="fl" src="./images/facebook.png" alt="Facebook icon"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img class="fl" src="./images/linkedin.png" alt="Linkedin icon"
+          /></a>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/"
+            ><img src="./images/facebook.png" alt="Facebook icon"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="./images/linkedin.png" alt="Linkedin icon"
+          /></a>
+        </div>
+      </section>
+      <section class="section2"><div class="date"></div></section>
+    </header>
+    <main>
+      <section id="hero">
+        <h3>Hero with site name and call to action</h3>
+      </section>
+      <section id="event">
+        <h3>Event</h3>
+      </section>
+      <section id="weather">
+        <h3>Weather</h3>
+      </section>
+      <section id="release">
+        <h3>News Release</h3>
+      </section>
+      <section id="join">
+        <h3>Join</h3>
+      </section>
+      <section id="spotlight">
+        <div class="spot"><h3>Spotlight 1</h3></div>
+        <div class="spot"><h3>Spotlight 2</h3></div>
+        <div class="spot3"><h3>Spotlight 3</h3></div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer1">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Kyiv Chamber logo" />
+        </div>
+        <div class="name">
+          <h1>Kyiv Chamber of Commerce</h1>
+          <p>B. Khmelnytskoho St., 55,</p>
+          <p>Kyiv, 01054, Ukraine</p>
+        </div>
+        <div class="contact">
+          <p>info@kcci.org.ua</p>
+          <p>+380 44 482-0301</p>
+          <p>🚩 Location Map</p>
+        </div>
+      </section>
+      <hr />
+      <section class="footer2">
+        <div class="footerblock">
+          <p>&copy;<span id="year"></span> Kyiv Chamber</p>
+          <p><strong>Vadym Chemariev</strong></p>
+          <p>WDD 230 Project</p>
+          <p>Last Modification: <span id="LastMod"></span></p>
+        </div>
+        <div class="footermedium">
+          <p>
+            &copy;<span id="year"></span> Kyiv Chamber | Vadym Chemariev | WDD
+            230 Project
+          </p>
+          <p>Last Modification: <span id="LastMod"></span></p>
+          <script src="js/current_time.js"></script>
+        </div>
+        <div class="footerline">
+          <p>
+            &copy;<span id="year"></span> Kyiv Chamber | Vadym Chemariev | WDD
+            230 Project | Last Modification: <span id="LastMod"></span>
+          </p>
+          <script src="js/current_time.js"></script>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

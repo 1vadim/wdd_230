@@ -1,0 +1,61 @@
+@media only screen and (min-width: 32.5em) {
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    display: block;
+    /* flex: 1 1 auto; */
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  #join {
+    display: block;
+  }
+  .spot3 {
+    display: none;
+  }
+  #spotlight {
+    display: flex;
+  }
+  .spot {
+    flex: 1;
+  }
+
+  .footer1 {
+    align-items: left;
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    text-align: right;
+    margin-right: 1rem;
+    flex: 1;
+  }
+  .footerline {
+    display: none;
+  }
+
+  .footerblock {
+    display: none;
+  }
+  .footermedium {
+    display: block;
+  }
+  .social {
+    display: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      "hero hero hero hero hero hero hero hero"
+      "release release release release release release release release"
+      "spotlight spotlight spotlight spotlight spotlight spotlight spotlight spotlight"
+      "join join join join join join join join"
+      "event event event event event weather weather weather";
+  }
+}
