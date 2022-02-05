@@ -1,16 +1,22 @@
 @media only screen and (min-width: 32.5em) {
   .navigation {
-    display: flex;
+    display: none;
   }
-  .navigation li {
+  .navigation.show {
     display: block;
-    /* flex: 1 1 auto; */
   }
-  .navigation a {
+  .navigation.show a {
     text-align: center;
   }
-  .navigation li:first-child {
-    display: none;
+
+button #ham {
+  place-self: center end;
+}
+
+.name {
+  flex: 2;
+}
+
   }
   #join {
     display: block;
@@ -35,15 +41,16 @@
     margin-right: 1rem;
     flex: 1;
   }
-  .footerline {
-    display: none;
-  }
-
-  .footerblock {
-    display: none;
-  }
-  .footermedium {
+  #footermedium {
     display: block;
+  }
+  
+  #footerline {
+    display: none;
+  }
+  
+  #footerblock {
+    display: none;
   }
   .social {
     display: none;

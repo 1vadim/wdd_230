@@ -15,6 +15,13 @@
       "join release release spotlight";
   }
 
+  .navigation {
+    display: flex;
+  }
+
+  #ham {
+    display: none;
+  }
   #join {
     display: block;
   }
@@ -31,18 +38,23 @@
     margin-right: 1rem;
     flex: 1;
   }
-  .footerline {
+  #footermedium {
+    display: none;
+  }
+
+  #footerline {
     display: block;
   }
 
-  .footerblock {
+  #footerblock {
     display: none;
   }
-  .footermedium {
-    display: none;
-  }
+
   .social1 {
     display: none;
+  }
+  .social {
+    display: block;
   }
   #spotlight {
     display: block;
