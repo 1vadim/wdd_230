@@ -9,15 +9,14 @@
     text-align: center;
   }
 
-button #ham {
-  place-self: center end;
-}
-
-.name {
-  flex: 2;
-}
-
+  button #ham {
+    place-self: center end;
   }
+
+  .name {
+    flex: 2;
+  }
+
   #join {
     display: block;
   }
@@ -44,11 +43,11 @@ button #ham {
   #footermedium {
     display: block;
   }
-  
+
   #footerline {
     display: none;
   }
-  
+
   #footerblock {
     display: none;
   }
