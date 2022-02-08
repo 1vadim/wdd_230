@@ -1,0 +1,67 @@
+@media only screen and (min-width: 32.5em) {
+  .navigation {
+    display: none;
+  }
+  .navigation.show {
+    display: block;
+  }
+  .navigation.show a {
+    text-align: center;
+  }
+
+  button #ham {
+    place-self: center end;
+  }
+
+  .name {
+    flex: 2;
+  }
+
+  #join {
+    display: block;
+  }
+  .spot3 {
+    display: none;
+  }
+  #spotlight {
+    display: flex;
+  }
+  .spot {
+    flex: 1;
+  }
+
+  .footer1 {
+    align-items: left;
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    text-align: right;
+    margin-right: 1rem;
+    flex: 1;
+  }
+  #footermedium {
+    display: block;
+  }
+
+  #footerline {
+    display: none;
+  }
+
+  #footerblock {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      "hero hero hero hero hero hero hero hero"
+      "release release release release release release release release"
+      "spotlight spotlight spotlight spotlight spotlight spotlight spotlight spotlight"
+      "join join join join join join join join"
+      "event event event event event weather weather weather";
+  }
+}

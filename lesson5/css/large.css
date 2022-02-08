@@ -1,0 +1,62 @@
+@media only screen and (min-width: 60em) {
+  .name {
+    font-size: 1rem;
+  }
+  nav {
+    font-size: 1.1rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "event hero hero spotlight"
+      "weather hero hero spotlight"
+      "join release release spotlight";
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  #ham {
+    display: none;
+  }
+  #join {
+    display: block;
+  }
+  .spot3 {
+    display: block;
+  }
+  .footer1 {
+    align-items: left;
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    text-align: right;
+    margin-right: 1rem;
+    flex: 1;
+  }
+  #footermedium {
+    display: none;
+  }
+
+  #footerline {
+    display: block;
+  }
+
+  #footerblock {
+    display: none;
+  }
+
+  .social1 {
+    display: none;
+  }
+  .social {
+    display: block;
+  }
+  #spotlight {
+    display: block;
+  }
+}
