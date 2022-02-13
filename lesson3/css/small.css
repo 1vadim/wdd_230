@@ -50,6 +50,11 @@ img {
   text-align: center;
   margin: 0 auto;
 }
+
+img.font {
+  border: 1px dashed rgba(19, 17, 17, 0.911);
+}
+
 nav {
   background-color: #36454f;
   margin: 0 auto;
