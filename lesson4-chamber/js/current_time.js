@@ -14,6 +14,13 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	d);
 datefield.innerHTML = fulldate;
 
-document.querySelector("#ham").onclick = () => {
-  document.querySelector(".navigation").classList.toggle('show');
+// document.querySelector("#ham").onclick = () => {
+//   document.querySelector(".navigation").classList.toggle('show');
+//   }
+
+  document.querySelector("#ham").addEventListener("click", ()=>{
+    document.querySelector(".navigation").classList.toggle('show');
   }
+
+  )
+   
